@@ -1,0 +1,404 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #EEE9E9;
+	margin:0;
+	padding:0;
+	height: 100%;	
+}
+
+header {
+	background: #808080 url('../img/header.jpg');
+	min-height: 15px;
+}
+
+h1 {
+	color: #FF8C00;
+	height:7;
+	text-align:center;
+	font-family:"arial";
+	font-size:50px;
+	text-shadow: 2px -2px darkgreen
+}
+
+h2 {
+	color: #FF8C00;
+	text-align:center;
+	font-family:"arial";
+	font-size:20px;
+	text-shadow: 2px -2px darkgreen
+	}
+	
+h4 {
+	color: #FF8C00;
+	height:7;
+	text-align:left;
+	font-family:"arial";
+	font-size:10px;
+	display: block;
+	margin: 5px;
+	margin-left: 20px;
+	margin-bottom: 5px;	
+}	
+
+section {
+	margin: 20px auto;
+	max-width: 1152px;
+	padding: 10px;
+	height: 830px;
+	font-family:"arial";
+	font-size:20px;
+}
+
+footer {
+	color: #000000;	
+	text-align:left;
+	font-family:"arial";
+	font-size:10px;
+	text-align:left;
+	font-weight:bold;
+	margin-left: 10px;
+	margin-right: 8px;
+	margin-bottom: 5px;
+	position:relative;
+	bottom:0;
+}
+
+hr {
+	margin-left: 33px;
+	margin-right: 38px;
+	margin-bottom: 5px;
+}
+
+iframe, article, small {
+	margin-left:0px;
+	font-family:"arial";
+	font-size:10px;
+}
+
+#navbar{
+	text-align: center;
+	margin: 0px;
+	height: 35px;
+	line-height: 46px;
+	background: #006400;
+	padding: 0.20px;
+	font-weight: bold;
+}
+
+#navbar li {	
+	display: inline-block;
+	margin-left: -5px
+}
+
+#mapalink{
+	text-align: center;
+	margin: 30px;
+	height: 0px;
+	line-height: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+#mapalink li {	
+	display: inline-block;
+	margin-left: -5px;
+	margin-bottom: 50px;
+}
+
+#mapalink p {
+	text-align: center;
+	margin: 35px;
+	margin-top: -25px;
+	font-family:arial;
+	font-size:20px;
+}
+
+.fotos {	
+	display: inline;
+	margin-left: -5px;
+	margin-bottom: 50px;
+}
+
+.bt1 {
+	-moz-box-shadow:inset 0px 0px 0px 0px ##EEE9E9;
+	-webkit-box-shadow:inset 0px 0px 0px 0px ##EEE9E9;
+	box-shadow:inset 0px 0px 0px 0px ##EEE9E9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, ##EEE9E9), color-stop(1, #98FB98) );
+	background:-moz-linear-gradient( center top, ##EEE9E9 5%, #98FB98 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='##EEE9E9', endColorstr='#98FB98');
+	background-color:#EEE9E9;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#228B22;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:26px;
+	line-height:30px;
+	width:120px;
+	text-decoration:none;
+	text-align:center;
+	
+}
+
+.bt1:active {
+	position:relative;
+	top:1px;
+}
+
+.bt1:hover{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+	height:33px;
+	line-height:45px;
+	color:#FF8C00;
+}
+
+.bt1:visited{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+	height:26px;	
+}
+
+.mapa1 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-border-top-left-radius:27px;
+	-moz-border-radius-topleft:27px;
+	border-top-left-radius:27px;
+	-webkit-border-top-right-radius:27px;
+	-moz-border-radius-topright:27px;
+	border-top-right-radius:27px;
+	-webkit-border-bottom-right-radius:27px;
+	-moz-border-radius-bottomright:27px;
+	border-bottom-right-radius:27px;
+	-webkit-border-bottom-left-radius:27px;
+	-moz-border-radius-bottomleft:27px;
+	border-bottom-left-radius:27px;
+	text-indent:0px;
+	border:1px solid #000000;
+	display:inline-block;
+	color: #006400;
+	font-family:Arial;
+	font-size:35px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px -1px 0px #ffffff;
+	background: transparent url('../img/topograficolink.jpg') no-repeat center center;
+	height:200px;
+	line-height:200px;
+	width:1000px;
+	opacity:0.6;
+}
+
+.mapa1:hover{
+	background: transparent url('../img/topograficolink.jpg') no-repeat center center;
+	opacity: 1;
+}
+
+.mapa1:active {
+	position:relative;
+	top:1px;
+}
+
+.mapa2 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-border-top-left-radius:27px;
+	-moz-border-radius-topleft:27px;
+	border-top-left-radius:27px;
+	-webkit-border-top-right-radius:27px;
+	-moz-border-radius-topright:27px;
+	border-top-right-radius:27px;
+	-webkit-border-bottom-right-radius:27px;
+	-moz-border-radius-bottomright:27px;
+	border-bottom-right-radius:27px;
+	-webkit-border-bottom-left-radius:27px;
+	-moz-border-radius-bottomleft:27px;
+	border-bottom-left-radius:27px;
+	text-indent:0px;
+	border:1px solid #000000;
+	display:inline-block;
+	color: #006400;
+	font-family:Arial;
+	font-size:35px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px -1px 0px #ffffff;
+	background: transparent url('../img/vegetacionlink.jpg') no-repeat center center;
+	height:200px;
+	line-height:200px;
+	width:1000px;
+	opacity:0.6;
+}
+
+.mapa2:hover{
+	background: transparent url('../img/vegetacionlink.jpg') no-repeat center center;
+	opacity: 1;
+}
+
+.mapa2:active {
+	position:relative;
+	top:1px;
+}
+
+.mapa3 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-border-top-left-radius:27px;
+	-moz-border-radius-topleft:27px;
+	border-top-left-radius:27px;
+	-webkit-border-top-right-radius:27px;
+	-moz-border-radius-topright:27px;
+	border-top-right-radius:27px;
+	-webkit-border-bottom-right-radius:27px;
+	-moz-border-radius-bottomright:27px;
+	border-bottom-right-radius:27px;
+	-webkit-border-bottom-left-radius:27px;
+	-moz-border-radius-bottomleft:27px;
+	border-bottom-left-radius:27px;
+	text-indent:0px;
+	border:1px solid #000000;
+	display:inline-block;
+	color:#006400;
+	font-family:Arial;
+	font-size:35px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px -1px 0px #ffffff;
+	background: transparent url('../img/turisticolink.jpg') no-repeat center center;
+	height:200px;
+	line-height:200px;
+	width:1000px;
+	opacity:0.6;
+}
+
+.mapa3:hover{
+	background: transparent url('../img/turisticolink.jpg') no-repeat center center;
+	opacity: 1;
+}
+
+.mapa3:active {
+	position:relative;
+	top:1px;
+}
+
+.link_pdf {
+	background: transparent;
+	display: block;
+	text-align: center;
+	margin: 10px;
+	color:darkgreen;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;	
+}
+
+
+/*search*/
+#map{
+	margin-top: 10px;
+	padding-top: 100px;
+}
+
+.mapa {
+	margin-top: 10px;
+}
+
+.largemap {
+    border: 1px solid #CCCCCC;
+    height: 700px;
+    width: 1250px;
+	margin-left: -55px;
+}
+
+iframe {
+	margin-left:0px;
+}
+
+/*medias para que a pagina adapte-se a qualquer janela*/
+@media screen and (max-width: 1000px) {
+	header, nav, footer, section, article {
+		font-size: .98em;
+		max-width: 95%;
+	
+	h1 {
+		font-size: 1.45em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	header, nav, footer, section, article {
+		font-size: .96em;
+		max-width: 95%;
+	
+	h1 {
+		font-size: 1.45em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	header, nav, footer, section, article {
+		font-size: .94em;
+		max-width: 95%;
+	
+	h1 {
+		font-size: 1.45em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	header, nav, footer, section, article {
+		font-size: .92em;
+		max-width: 95%;
+	
+	h1 {
+		font-size: 1.45em;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	header, nav, footer, section, article {
+		font-size: .90em;
+		max-width: 95%;
+	
+	h1 {
+		font-size: 1.45em;
+	}
+}
+
+
+
+
